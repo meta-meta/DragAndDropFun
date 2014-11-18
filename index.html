@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Drag and Drop Fun</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="css/app.css" rel="stylesheet" media="screen">
+
+  <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/underscore.js"></script>
+  <script src="js/underscore.string.js"></script>
+  <script src="js/app.js"></script>
+</head>
+<body>
+<h1>Hello, sideways world!</h1>
+<h3>Drag the items from the ground into the sky...</h3>
+
+<ul id="area1" class="sortable" >
+  <li data-sort-order="2">Three</li>
+  <li data-sort-order="4">Five</li>
+  <li data-sort-order="0">One</li>
+  <li data-sort-order="3">Four</li>
+  <li data-sort-order="1">Two</li>
+</ul>
+
+<ul id="area2" class="sortable droppable" ></ul>
+
+<button disabled="disabled">Are they in order?</button>
+
+
+</body>
+</html>

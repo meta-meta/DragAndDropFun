@@ -1,0 +1,38 @@
+.sortable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.1em;
+    width: 40%;
+    height: 28.8em;
+    float:left;
+}
+
+.sortable li {
+    margin: 0.2em;
+    padding: 0.2em;
+    padding-left: 1.5em;
+    font-size: 1.4em;
+    cursor: all-scroll;
+    background: #fff;
+}
+
+
+#area1 {
+    background: #a75;
+}
+
+#area2 {
+    background: #abf;
+}
+
+button {
+    clear: left;
+    float: left;
+    width: 80%;
+    font-size: 1.4em;
+    padding: 0.4em;
+}
+
+button:disabled {
+    color: #ccc;
+}
